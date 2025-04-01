@@ -1,1 +1,75 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    height: 293px;
+    padding: 93.16px 52.52px 95.19px 50px;
+}
+
+
+.header__links-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 31.48px;
+    padding-bottom: 138px;
+}
+
+.header__links-list-item {
+    list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__link_active {
+    text-decoration: underline;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+
+.header__logo-image {
+    padding-bottom: 96px;
+    
+}
+
+.address {
+    max-width: 240px;
+    justify-self: end;
+    font-style: normal;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+.cover {
+    height: 757px;
+    background-image: url(C:/Users/nobil/OneDrive/Desktop/project1/ono-tebe-nado-fd/images/cover.jpg);
+}
+
+.lots {
+    width: 1052px;
+    height: 723px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.about {
+    width: 1052px;
+    height: 595px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+.footer {
+    height: 180px;
+
+}
+
+.main__background {
+    background-color: white;
+}
