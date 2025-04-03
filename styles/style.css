@@ -40,14 +40,13 @@
     border-bottom: 1px solid #000000;
 }
 
-.header__logo {
-    display: block;
-    width: 150px;
-    height: 113px;
+.header__logo {   
+    width: 137px;
+    height: 109px;
 }
 
 .header__logo-image {
-    padding: 2px 6px 0 7px;
+    display: block;  
 }
 
 .address {
@@ -71,6 +70,103 @@
 .cover {
     height: 757px;
     background-image: url(C:/Users/nobil/OneDrive/Desktop/project1/ono-tebe-nado-fd/images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 0.6);
+    z-index: 0;
+}
+
+.cover__title {
+    position: absolute;
+    inset: 165px 50px 207px 50px;
+    width: 1000px;
+    height: 385px;
+}
+
+.aligned-text {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115%;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-right: 714px;
+    padding-bottom: 270px;
+}
+
+.aligned-text_center {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 155%;
+    letter-spacing: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 135px 330.5px;
+}
+
+.aligned-text_right {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 116%;
+    letter-spacing: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 270px;
+    padding-left: 613px;
+}
+
+.cover__description {
+    z-index: 1;
+    position: absolute;
+    inset: 656px 50px 50px 50px;
+    width: 1000px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.cover__description-text {
+    width: 637px;
+    height: 28px;
+    word-spacing: 19px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    white-space: nowrap;
+    align-self: center;
+    
+    
+}
+
+.bet-button {
+    width: 256px;
+    height: 51px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    
+    
+    
+   
+
 }
 
 .lots {
