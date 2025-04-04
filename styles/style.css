@@ -170,24 +170,122 @@
 }
 
 .lots {
-    width: 1052px;
-    height: 723px;
-    margin-top: 180px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-top: 184px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.lots__heading {  
+font-weight: 700;
+font-size: 40px;
+line-height: 100%;
+text-transform: uppercase;
+color: #000000;
+padding-left: 40px;
+padding-bottom: 30px;
+
+}
+
+.lots__card-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: start;
+}
+
+.lots__card-list-item{
+    width: 334px;
+    min-height: 596px;
+    
+    
+
+}
+
+.card-link {
+    height: 100%;
+    text-decoration: none;
+  
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 48px 40px;
+    justify-content: space-between;
+    
+}
+
+.card__title {
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-style: solid;
+text-underline-offset: 2px;
+text-decoration-thickness: 1px;
+color: #FFFFFF;
+
+}
+
+.card__text {
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+color: #FFFFFF;
+
+}
+
+.card_type_film {
+background-image: url(C:/Users/nobil/OneDrive/Desktop/project1/ono-tebe-nado-fd/images/card-lot-01.jpg);
+background-size: cover;
+    background-position: center;
+}
+
+.card_type_book {
+    background-image: url(C:/Users/nobil/OneDrive/Desktop/project1/ono-tebe-nado-fd/images/card-lot-02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card_type_picture{
+    background-image: url(C:/Users/nobil/OneDrive/Desktop/project1/ono-tebe-nado-fd/images/card-lot-03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.lots__look-more-link {
+    display: block;
+    width: 192px;
+    height: 25px;
+    padding-left: 40px;
+    padding-top: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    white-space: nowrap;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+    
+
+
 }
 
 .about {
-    width: 1052px;
-    height: 595px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 120px;
+    
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 120px;
+    padding-bottom: 180px;
 
 }
 
 .footer {
-    height: 180px;
+    
 
 }
 
