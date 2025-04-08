@@ -39,7 +39,8 @@
     </header>
     <main>
       <section class="cover">
-        <div class="overlay"></div>
+        <div class="overlay">
+        </div>
         <h1 class="cover__title">
           <span class="aligned-text">Оно</span> 
           <span class="aligned-text_center">тебе</span>
@@ -96,30 +97,47 @@
           </p>
           </div>
         </div>
-        
       </section>
     </main>
     <footer class="footer main__background">
-      <address>+9 999 555 5555
-        info@sobaka.ge
+      <address class="address footer__address"> 
+        <a class="address-link-border" href="tel:+99995555555">+9 999 555 5555</a>
+        <br>
+        <a class="address-link-border" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <br>
         наб. Принсенграхт 263- 265, Амстердам
       </address>
-      <nav>
-        <ul>
-          <li>главная</li>
-          <li>посмотреть лоты</li>
-          <li>об аукционе</li>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link_active" href="#">главная
+            </a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#">посмотреть лоты
+            </a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#">об аукционе
+          </a>
+        </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a></a>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a class="footer__social-link footer__menu-link_active" href="#">
+            <img class="footer__social-icon" src="./images/yt.svg" alt="значок ютюб">
+          </a>
         </li>
-        <li>
-          <a></a>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link footer__menu-link_active" href="#">
+            <img class="footer__social-icon" src="./images/vk.svg" alt="значок вконтакте">
+          </a>
         </li>
-        <li>
-          <a></a>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link footer__menu-link_active" href="#">
+            <img class="footer__social-icon" src="./images/pinterest.svg" alt="значок пинтерест">
+          </a>
         </li>
       </ul>
     </footer>
