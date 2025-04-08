@@ -212,10 +212,10 @@
 }
 
 .card__text {
-font-weight: 400;
-font-size: 20px;
-line-height: 120%;
-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
 }
 
 .card_type_film {
