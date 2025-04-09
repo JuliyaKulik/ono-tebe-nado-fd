@@ -170,6 +170,8 @@
 .lots__card-list-item {
     width: 334px;
     min-height: 596px;
+    background-size: cover;
+    background-position: center;
 }
 
 .card-link {
@@ -205,10 +207,6 @@
     color: #FFFFFF;
 }
 
-.lots__card-list-item {
-    background-size: cover;
-    background-position: center;
-}
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
