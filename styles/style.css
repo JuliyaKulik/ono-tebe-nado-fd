@@ -7,8 +7,8 @@
 }
 
 .header__menu {
-    padding-top: 128px;
-    padding-bottom: 133px;
+    padding-top: 129px;
+    padding-bottom: 132px;
     line-height: 32px;
     font-weight: 400;
     font-size: 18px;
@@ -28,13 +28,13 @@
     list-style: none;
 }
 
-.header__link_active {
-    text-decoration: none;
+.header__link {
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
 }
 
-.header__link {
+.header__link_active {
     text-decoration: none;
-    border-bottom: 1px solid #000000;
 }
 
 .header__logo {
@@ -67,66 +67,53 @@
 }
 
 .cover {
-    height: 757px;
+    min-height: 757px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
-    z-index: -1;
 }
 
 .overlay {
     width: 100%;
     height: 100%;
     background-color: rgb(0 0 0 / 0.6 );
-    z-index: 0;
     position: absolute;
+    inset: 0;
 }
 
 .cover__title {
-    position: absolute;
-    inset: 165px 50px 106px 50px;
-    z-index: 1;
-}
-
-.aligned-text {
+    padding: 163px 50px 103px 50px;
     font-weight: 700;
     font-size: 100px;
-    line-height: 115%;
     letter-spacing: 30px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.aligned-text {
+    line-height: 115%;
     padding-right: 714px;
     padding-bottom: 270px;
 }
 
 .aligned-text_center {
-    font-weight: 700;
-    font-size: 100px;
     line-height: 155%;
-    letter-spacing: 30px;
     text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
     padding: 135px 330.5px;
 }
 
 .aligned-text_right {
-    font-weight: 700;
-    font-size: 100px;
     line-height: 116%;
-    letter-spacing: 30px;
     text-align: right;
-    text-transform: uppercase;
-    color: #FFFFFF;
     padding-top: 270px;
     padding-left: 613px;
 }
 
 .cover__description {
-    position: absolute;
-    z-index: 1;
-    inset: 656px 50px 50px 50px;
+    padding-bottom: 46px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -138,7 +125,6 @@
     line-height: 28px;
     text-transform: uppercase;
     color: #FFFFFF;
-    white-space: nowrap;
     align-self: center;
 }
 
@@ -151,7 +137,7 @@
     line-height: 100%;
     text-transform: uppercase;
     color: #FFFFFF;
-    border: 1px solid #FFFFFF;
+    border: 1px solid currentColor;
 }
 
 .lots {
@@ -178,6 +164,7 @@
     flex-wrap: wrap;
     align-content: start;
     padding-bottom: 32px;
+    gap: 25px;
 }
 
 .lots__card-list-item {
@@ -218,22 +205,21 @@
     color: #FFFFFF;
 }
 
-.card_type_film {
-    background-image: url(../images/card-lot-01.jpg);
+.lots__card-list-item {
     background-size: cover;
     background-position: center;
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .lots__look-more-link {
